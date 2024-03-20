@@ -8,7 +8,7 @@ const userRouter=require('./api/users/user.router')
 
 app.use(cors(
     {
-        origin: 'http://localhost:5173',
+        origin: 'https://code-judge-rouge.vercel.app',
         
     }
 
