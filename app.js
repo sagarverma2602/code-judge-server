@@ -8,7 +8,7 @@ const userRouter=require('./api/users/user.router')
 
 app.use(cors(
     {
-        origin: 'https://code-judge-rouge.vercel.app',
+        origin: process.env.CORS_ORIGIN
         
     }
 
