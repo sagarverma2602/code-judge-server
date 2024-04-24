@@ -24,7 +24,9 @@ module.exports={
                 console.log(error)
                 return res.status(500).json({
                     success:0,
-                    message:"database connection error"
+                    message:"database connection error",
+                    
+                    
                 })
             }
             return res.status(200).json({
